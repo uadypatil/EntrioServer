@@ -1,0 +1,11 @@
+actually what the thing is I will tell you. I'm facing one issue of handieling UI by manually each time so what I want to do is I will create the dinamic library and will use in my layouts. as it will have custom buttons with some custom fields. inbuild permission management. inbuild theme management. extensible flexible theme architecture as strecth sidebar vagera and all dinamic layouts so that the developoment will get more easier. and for applying handler to that components we will just create the flexible parameters to there so that events will also be handeled. 
+
+aditionally a seperate library for integrating and using redux and dispatchers combinely using the library. so the purpose of library is very clear to implement redux in auto mode instead of manual things and to integrate API's too. I do have clear Idea regarding both just want to know the optimized process to go with there.
+
+tell me how I can create library there. also it should be flexible for jsx and tsx so that it will be used for both the technologies.
+
+FlxStruct: for using flexible structures
+Integrest: for integrating api's and redux dispatchers
+
+both the libraries are different-different by the use and implementation as well. it should be like crete library and use npm install to install it as dependency and directly import it and use it. this seems intresting. let's move:
+

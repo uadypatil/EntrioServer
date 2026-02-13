@@ -1,0 +1,57 @@
+DesktopUser
+id int primary key
+desktop id String
+desktop user name (String)
+created at (timestamp)
+updated at (timestamp)
+
+MonthManager
+id long primary key
+Month Name String
+Year Integer
+desktopUser reference
+created at
+
+TaskList
+id long primary key
+desktop user reference
+month reference
+Task String (1000 char standard length)
+assigned by String
+assigned on timestamp
+status Enum (ASSIGNED, ONGOING, PENDING, COMPLETED, CANCELLED)
+Status updated on TimeStamp
+created at
+updated at
+
+EODInOutRecords
+id long primary key
+desktop user reference
+month reference
+time in
+time out
+date
+attendance status Enum (FULL DAY, HALF DAY, LOP(LOSS OF PAY), ON LEAVE)
+Today's work
+assigned by
+remarks
+created at
+upated at
+
+ReportsGenerationHistory
+id long primary key
+desktop user reference
+for month
+for year
+report generated timestamp
+
+
+
+
+
+
+
+
+
+
+
